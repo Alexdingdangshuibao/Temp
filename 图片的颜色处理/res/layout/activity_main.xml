@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.colorimage.MainActivity" >
+	<LinearLayout
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    >
+	    <TextView 
+	         android:layout_width="wrap_content"
+    		 android:layout_height="wrap_content"
+    		 android:text="红"
+	       	 android:textSize="25sp"
+	        />
+
+	    <SeekBar
+	        android:id="@+id/red"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" />
+
+	</LinearLayout>
+    <LinearLayout
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    >
+	    <TextView 
+	         android:layout_width="wrap_content"
+    		 android:layout_height="wrap_content"
+    		 android:text="蓝"
+	       	 android:textSize="25sp"
+	        />
+
+	    <SeekBar
+	        android:id="@+id/blue"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" />
+
+	</LinearLayout>
+	<LinearLayout
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    >
+	    <TextView 
+	         android:layout_width="wrap_content"
+    		 android:layout_height="wrap_content"
+    		 android:text="绿"
+	       	 android:textSize="25sp"
+	        />
+
+	    <SeekBar
+	        android:id="@+id/green"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" />
+
+	</LinearLayout>
+	<LinearLayout
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    >
+	    <TextView 
+	         android:layout_width="wrap_content"
+    		 android:layout_height="wrap_content"
+    		 android:text="亮"
+	       	 android:textSize="25sp"
+	        />
+
+	    <SeekBar
+	        android:id="@+id/hight"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" />
+
+	</LinearLayout>
+    <ImageView
+        	android:id="@+id/iv"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+        />
+</LinearLayout>
