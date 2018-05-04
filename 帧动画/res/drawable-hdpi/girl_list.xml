@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/a" android:duration="200" />
+    <item android:drawable="@drawable/mmexport1518535521601" android:duration="100" />
+    <item android:drawable="@drawable/mmexport1518535697104" android:duration="100" />
+        <item android:drawable="@drawable/mmexport1518955269632" android:duration="100" />
+            <item android:drawable="@drawable/mmexport1520431726029" android:duration="100" />
+                <item android:drawable="@drawable/mmexport1520725203995" android:duration="100" />
+</animation-list>
