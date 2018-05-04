@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.talk.MainActivity" >
+
+    <Button
+       	android:onClick="click1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示一个通知对话框" />
+    <Button
+       	android:onClick="click2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示一个单选对话框" />
+        <Button
+       	android:onClick="click3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示一个多选对话框" />
+        <Button
+       	android:onClick="click4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示一个进度条对话框" />
+    	<Button
+       	android:onClick="click5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示一个水平进度条对话框" />
+    
+
+</LinearLayout>
